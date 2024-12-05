@@ -1,6 +1,6 @@
 
-#ifndef sodium_lib_H
-#define sodium_lib_H
+#ifndef sodium_H
+#define sodium_H
 
 #include "version.h"
 

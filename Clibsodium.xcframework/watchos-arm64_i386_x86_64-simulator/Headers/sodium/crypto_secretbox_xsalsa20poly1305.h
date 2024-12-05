@@ -36,7 +36,7 @@ int crypto_secretbox_xsalsa20poly1305(unsigned char *c,
                                       unsigned long long mlen,
                                       const unsigned char *n,
                                       const unsigned char *k)
-            __attribute__ ((nonnull(1, 4, 5)));
+            __attribute__ ((nonnull));
 
 SODIUM_EXPORT
 int crypto_secretbox_xsalsa20poly1305_open(unsigned char *m,
